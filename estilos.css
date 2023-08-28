@@ -1,0 +1,47 @@
+/*reinicio de propiedades básicas*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #2B807B;
+    text-align: center;
+}
+
+.centrar-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    height: 220px;
+    width: 450px;
+    background-color: white;
+    border: solid 5px black;
+    flex-direction: column;
+}
+
+.color{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+button{
+    font-size: 30px;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 5px;
+    cursor: pointer;
+    transition: backgroud-color 0.3s ease;
+    transition: box-shadow 0.3s ease;
+}
+
+button:hover{
+    background-color: lightslategrey;
+}
